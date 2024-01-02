@@ -1,4 +1,4 @@
-# Run (Shell Command) Before Build
+# Run Commands Before Build
 
 This plugin allows the user to define a shell command to run before build (dev) or export (release).
 
