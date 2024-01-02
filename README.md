@@ -1,5 +1,9 @@
 # Run Commands Before Build
 
+<div align="center">
+    <img src="icon.png" width="25%"/>
+</div>
+
 This plugin allows the user to define a shell command to run before build (dev) or export (release).
 
 ## Configure
