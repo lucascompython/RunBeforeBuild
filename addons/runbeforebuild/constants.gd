@@ -8,14 +8,10 @@ const RELEASE_CMD := "cargo build --release"
 const CWD := "./rust"
 
 static func get_shell() -> String:
-	var os := OS.get_name()
-	var shell: String
-	
-	match os:
+	match OS.get_name():
 		"Windows", "UWP":
-			shell = "powershell"
+			return "powershell"
 		"Linux", "FreeBSD", "NetBSD", "OpenBSD", "BSD", "macOS":
-			shell = "bash"
+			return "bash"
 		_:
-			shell = "N/A" # basically don't support mobile
-	return shell
+			return "N/A" # basically don't support mobile
