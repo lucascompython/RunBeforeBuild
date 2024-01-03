@@ -4,8 +4,9 @@
     <img src="icon.png" width="25%"/>
 </div>
 
-This plugin is 100% type hinted and it allows the user to define a shell command to run before build (dev) or export (release).  
-Was tested in Godot 4.1 and 4.2.
+This plugin is 100% type hinted, and it allows the user to define a shell command to run before build (dev) or export (release).  
+It was tested in Godot 4.1 and 4.2.  
+Can be used, for example, to compile gdextentions.
 
 ## Configure
 
