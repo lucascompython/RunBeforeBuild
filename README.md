@@ -5,6 +5,7 @@
 </div>
 
 This plugin is 100% type hinted and it allows the user to define a shell command to run before build (dev) or export (release).  
+Was tested in Godot 4.1 and 4.2.
 
 ## Configure
 
