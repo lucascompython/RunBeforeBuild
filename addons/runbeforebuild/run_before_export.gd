@@ -16,7 +16,7 @@ func _export_begin(_features: PackedStringArray, is_debug: bool, _path: String, 
 	var exit_code := OS.execute(shell, ["-c", "cd %s && %s" % [CONSTANTS.CWD, cmd]], output)
 	
 	if output[0]:
-		print("RunBeforeBuild] OUTPUT: ", output)
+		print("[RunBeforeBuild] OUTPUT: ", output)
 	
 	if exit_code != 0:
 		print("[RunBeforeBuild] ERROR: Something went wrong when executing: '%s'" % cmd)	
